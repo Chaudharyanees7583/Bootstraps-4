@@ -1,0 +1,488 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ..........nav-bar........... */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px;
+
+}
+
+.nav-logo {
+  flex: 1;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex: 1;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.alert-pic,
+.add-pic {
+  height: 34px;
+  margin-right: 10px;
+}
+
+.meowoof-alert,
+.post-text,
+.register {
+  font-size: 16px;
+}
+
+.Meowoof-pic {
+  height: 65px;
+}
+
+.login-btn {
+  background-color: #A658A1;
+  color: white;
+  padding: 9px 43px;
+  border: none;
+  font-size: 17px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: yellowgreen;
+}
+
+.irish-pic {
+  height: 65px;
+}
+
+.Irish {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 80px;
+  margin-top: -29px;
+}
+
+/* .......Her0-section............. */
+.hero-section {
+  text-align: center;
+}
+
+.kitten {
+  font-size: 60px;
+}
+
+.sale {
+  font-size: 55px;
+  color: #A658A1;
+}
+
+.website-pra p {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.text-alert {
+  color: #A658A1;
+  font-weight: 500;
+
+}
+
+/* ...........Dog-cat-section.......... */
+.DOG-CATS {
+  height: 330px;
+}
+
+.left-side {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.dowload-continer {
+  background-color: #A658A1;
+  color: white;
+  justify-content: center;
+}
+
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.dowload-continer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.play-store {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  height: 67px;
+  width: 222px;
+  border-radius: 11px;
+  gap: 10px;
+
+}
+
+.play-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.GOOGLE {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.dogs-ad {
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 31px;
+}
+
+
+.view-all {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.latest-ads {
+  padding-top: 146px;
+}
+
+a {
+  text-decoration: none;
+  color: #5F6165;
+  margin-top: -74px;
+}
+
+/*........card-section.............. */
+.view-btn {
+  background-color: #A658A1;
+  color: white;
+  border: none;
+  font-size: 13px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 17px;
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+
+.button {
+  text-align: center;
+}
+
+.main-continer {
+  border: 2px solid #D9D9D9;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.dollar {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 7px;
+  justify-content: space-between;
+}
+
+.option {
+  padding: 10px;
+}
+
+.irlead {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.alway {
+  font-family: sans-serif;
+  font-size: 15px;
+
+}
+
+.like {
+  position: absolute;
+  left: 256px;
+  top: 25px;
+}
+
+.irlead {
+  padding-top: 7px;
+}
+
+.card-continer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 58px;
+  background-color: #F9FAFB;
+}
+
+
+.dollar-pic {
+  padding: 10px;
+  width: 305px;
+}
+
+
+
+
+.published {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.currency {
+  font-size: 22px;
+  font-weight: bold;
+  color: #A618A1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.alway {
+  color: gray;
+}
+
+span {
+  color: gray;
+  font-family: sans-serif;
+}
+
+.cats-ads {
+  padding-top: 250px;
+}
+
+.image {
+  position: relative;
+}
+
+.frame {
+  padding-top: 150px;
+  width: 1515px;
+  height: 759px;
+}
+
+.trvel-btn {
+  background-color: #FFF3F4;
+  color: #A618A1;
+  border: none;
+  font-size: 11px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 17px;
+  margin-top: 12px;
+  /* width: 100%; */
+  padding: 6px 17px;
+}
+
+.dogs-cats {
+  border: 1px solid red;
+}
+
+.voicher {
+  position: absolute;
+  left: 214px;
+  top: 22px;
+  width: 80px;
+}
+
+.pragraph {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px;
+}
+
+.icon {
+  font-size: 14px;
+  padding-top: 8px;
+  color: gray;
+
+}
+
+
+.by-option {
+  /* border: 1px solid gray; */
+}
+
+.vohers-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.girl {
+  width: 244px;
+}
+
+
+/* ............golden-card.............  */
+
+.gold {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+
+.gold-card-continer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+/* ...............services.......... */
+
+.serives {
+  background-color: #F7F3F9;
+  padding: 77px;
+  margin-top: 101px;
+
+}
+
+.service-card-sm-one {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 84px;
+  border-bottom-right-radius: 20px;
+  padding: 66px;
+}
+
+
+
+.service-card-sm-two {
+  background-color: burlywood;
+}
+
+
+
+.bording {
+  font-weight: bold;
+}
+
+.lorem {
+  color: gray;
+}
+
+.icon {
+  width: 92px;
+  height: 94px;
+  background-color: #992948;
+  border-top-left-radius: 249%;
+  border-top-right-radius: 146px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 624px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 317px;
+  left: 78px;
+}
+
+.icn-container {
+  width: 92px;
+  height: 94px;
+  background-color: #EB796F;
+  border-top-left-radius: 249%;
+  border-top-right-radius: 146px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 624px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 317px;
+  left: 78px;
+}
+
+.cake {
+  height: 34px;
+}
+
+
+.icon-container {
+  width: 92px;
+  height: 94px;
+  background-color: #689C9B;
+  border-top-left-radius: 279%;
+  border-top-right-radius: 146px;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 624px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 298px;
+  left: 78px;
+  bottom: 317px;
+  left: 78px;
+}
+
+
+.magnifying-glass {
+  width: 25px;
+  height: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.magnifying-glass::after {
+  content: '';
+  width: 10px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  right: -8px;
+  bottom: -5px;
+  transform: rotate(45deg);
+}
+
+.card-dogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 68px;
+  gap: 90px;
+}
